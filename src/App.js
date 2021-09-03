@@ -5,9 +5,10 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Login from "./components/LoginPage";
-
+import { useTranslation } from 'react-i18next';
 
 function App() {
+  const { t } = useTranslation();
   return (
     <Router>
       <div className="App">
@@ -17,7 +18,7 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <Link className="nav-link" to={"/sign-in"}>Login</Link>
+                  <Link className="nav-link" to={"/sign-in"}>{t}</Link>
                 </li>
                 <li className="nav-item">  
                 </li>
