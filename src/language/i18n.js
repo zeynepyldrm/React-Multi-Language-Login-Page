@@ -10,7 +10,7 @@ i18next
   .use(initReactI18next)
   .init({
     supportedLngs: ['en','tr'],
-    fallbackLng: "en",
+    fallbackLng: "tr",
     detection: {
 
       order: ['path','cookie', 'htmlTag', 'localStorage',  'subdomain'],

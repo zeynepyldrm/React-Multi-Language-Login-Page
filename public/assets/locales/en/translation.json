@@ -1,9 +1,11 @@
 {
+    "title":"Multiple Login Page",
     "login":"Login",
     "email":"Email",
     "password":"Password",
     "remember":"Remember me",
     "submit":"Submit",
-    "forgot":"Forgot"
+    "forgot":"Forgot",
+    "language":"Engilish"
 
 }

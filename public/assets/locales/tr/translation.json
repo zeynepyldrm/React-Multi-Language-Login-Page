@@ -1,9 +1,12 @@
 {
+    "title":"Çoklu Dil Destekli Giriş Sayfası",
     "login":"Giriş",
-    "email":"E Posta",
+    "email":"E-Posta",
     "password":"Şifre",
     "remember":"Beni Hatırla",
     "submit":"Gönder",
-    "forgot":"Unuttum"
+    "forgot":"Unuttum",
+    "language":"Türkçe"
+    
 
 }
